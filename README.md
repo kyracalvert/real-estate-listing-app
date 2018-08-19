@@ -12,9 +12,13 @@ Angular, Node, Express, and SQL (SEAN Stack)
 - [x] Install express
 - [x] Spin up server
 - [x] Create .gitignore 
-- [ ] Bring Angular file into project
-- [ ] Source in AngularJS
-- [ ] Source is CSS
+- [x] Bring Angular file into project
+- [x] Set Angular app up via index.html and client.js
+- [x] Source files into index.html
+  - [x] CSS
+  - [x] Angular-route
+  - [x] Angular.min
+  - [x] client.js
 
 ### Database 
 - [ ] Create a database called 'real_estate' 
@@ -49,6 +53,21 @@ Angular, Node, Express, and SQL (SEAN Stack)
       - [ ] These listings should be displayed via "card" elements
       - [ ] Delete button should populate with each card, and delete upon click
   
+### HTML
+   - [x] Views:
+    - [x] home.html
+    - [x] rental.html
+    - [x] sale.html
+    - [x] 404.html
+    index.HTML: 
+     - [x] NAVIGATION
+       - [x] Home
+       - [x] Rental
+       - [x] Sale
+      - [ ] View Container
+          - [ ] ng-view
+       
+         
 
 
 
