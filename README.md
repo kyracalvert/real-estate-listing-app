@@ -13,6 +13,7 @@ Angular, Node, Express, and SQL (SEAN Stack)
     - [x] client.js
     - [x] rental.controller.js
     - [x] sale.controller.js
+    - [x] source rental and sale controllers into index.html
 
 - [x] Install express
 - [x] Spin up server
