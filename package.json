@@ -1,0 +1,25 @@
+{
+  "name": "real-estate-listing-app",
+  "version": "1.0.0",
+  "description": "Real Estate Listing Database",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyracalvert/real-estate-listing-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyracalvert/real-estate-listing-app/issues"
+  },
+  "homepage": "https://github.com/kyracalvert/real-estate-listing-app#readme"
+}

@@ -8,10 +8,10 @@ Angular, Node, Express, and SQL (SEAN Stack)
 
 ## To Do: 
 - [x] Write README
-- [ ] Setup project folders and files
-- [ ] Spin up server
-- [ ] Install express
-- [ ] Create .gitignore 
+- [x] Setup project folders and files
+- [x] Install express
+- [x] Spin up server
+- [x] Create .gitignore 
 - [ ] Bring Angular file into project
 - [ ] Source in AngularJS
 - [ ] Source is CSS
