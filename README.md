@@ -9,6 +9,11 @@ Angular, Node, Express, and SQL (SEAN Stack)
 ## To Do: 
 - [x] Write README
 - [x] Setup project folders and files
+  - [x] Script files:
+    - [x] client.js
+    - [x] rental.controller.js
+    - [x] sale.controller.js
+
 - [x] Install express
 - [x] Spin up server
 - [x] Create .gitignore 
@@ -64,8 +69,8 @@ Angular, Node, Express, and SQL (SEAN Stack)
        - [x] Home
        - [x] Rental
        - [x] Sale
-      - [ ] View Container
-          - [ ] ng-view
+      - [x] Section Container
+          - [x] ng-view
        
          
 
