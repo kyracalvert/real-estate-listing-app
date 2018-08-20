@@ -1,7 +1,7 @@
 # real-estate-listing-app
 Real Estate Listing Database
 
-The Real Estate Listing Database is a full-stack application for a local real estate company. The app is designed to 
+The Real Estate Listing Database is a full-stack application for a local real estate company. The app is designed to allow users to input data for current rent or sale properties. Users can see the full list of those properties via the corresponding navigation link: "Rental Properties" or "For Sale". Finally, users are able to delete properties from the database via the interface using the "Delete" button that populates with each property card. 
 
 ## Built With:
 Angular, Node, Express, and SQL (SEAN Stack)
@@ -29,14 +29,14 @@ Angular, Node, Express, and SQL (SEAN Stack)
   - [x] Angular.min
   - [x] client.js
 
-### Database 
+#### Database 
 - [x] Create a database called 'real_estate' 
   - [x] Create a table called 'listings'
   - [x] Import existing data file (listings.sql) into database via listings table
   - [x] Add the CREATE TABLE query to database.sql file inserted into project
 
   
-### Client-side HOME page
+#### Client-side HOME page
   - [x] Route
   - [x] Controller
   - [x] View
@@ -46,7 +46,7 @@ Angular, Node, Express, and SQL (SEAN Stack)
     
   
 
- ### Client-side RENTAL PROPERTY page
+ #### Client-side RENTAL PROPERTY page
   - [x] Route
   - [x] Controller
   - [x] View
@@ -55,7 +55,7 @@ Angular, Node, Express, and SQL (SEAN Stack)
       - [x] Delete button should populate with each card, and delete upon click
   
   
- ### Client-side SALE PROPERTY page
+ #### Client-side SALE PROPERTY page
   - [x] Route
   - [x] Controller
   - [x] View
@@ -63,7 +63,7 @@ Angular, Node, Express, and SQL (SEAN Stack)
       - [x] These listings should be displayed via "card" elements
       - [x] Delete button should populate with each card, and delete upon click
   
-### HTML
+#### HTML
    - [x] Views:
     - [x] home.html
     - [x] rental.html
