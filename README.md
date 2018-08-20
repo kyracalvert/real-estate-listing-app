@@ -27,9 +27,10 @@ Angular, Node, Express, and SQL (SEAN Stack)
   - [x] client.js
 
 ### Database 
-- [ ] Create a database called 'real_estate' 
-  - [ ] Import existing data file (listings.sql) into database via listings table
-  - [ ] Add the CREATE TABLE query to database.sql
+- [x] Create a database called 'real_estate' 
+  - [x] Create a table called 'listings'
+  - [x] Import existing data file (listings.sql) into database via listings table
+  - [x] Add the CREATE TABLE query to database.sql file inserted into project
 
   
 ### Client-side HOME page
