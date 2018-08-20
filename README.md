@@ -34,8 +34,8 @@ Angular, Node, Express, and SQL (SEAN Stack)
 
   
 ### Client-side HOME page
-  - [ ] Route
-  - [ ] Controller
+  - [x] Route
+  - [x] Controller
   - [ ] View
   - [ ] Allow a user to add a property to the database via input fields
     - [ ] Drop-down list to specify: 'For Sale' or 'For Rent'
@@ -44,8 +44,8 @@ Angular, Node, Express, and SQL (SEAN Stack)
   
   
  ### Client-side RENTAL PROPERTY page
-  - [ ] Route
-  - [ ] Controller
+  - [x] Route
+  - [x] Controller
   - [ ] View
   - [ ] Display only the properties that are for RENT
       - [ ] These listings should be displayed via "card" elements
@@ -53,8 +53,8 @@ Angular, Node, Express, and SQL (SEAN Stack)
   
   
  ### Client-side SALE PROPERTY page
-  - [ ] Route
-  - [ ] Controller
+  - [x] Route
+  - [x] Controller
   - [ ] View
   - [ ] Display only the properties that are for SALE
       - [ ] These listings should be displayed via "card" elements
