@@ -13,7 +13,10 @@ Angular, Node, Express, and SQL (SEAN Stack)
     - [x] client.js
     - [x] rental.controller.js
     - [x] sale.controller.js
-    - [x] source rental and sale controllers into index.html
+    - [x] source rental and sale 
+  - [x] Image folder
+   - [x] Image files
+    controllers into index.html
 
 - [x] Install express
 - [x] Spin up server
@@ -42,9 +45,9 @@ Angular, Node, Express, and SQL (SEAN Stack)
     - [ ] Drop-down list for user to choose which image to display with property listing
     
   
-  
+
  ### Client-side RENTAL PROPERTY page
-  - [] Route
+  - [x] Route
   - [x] Controller
   - [x] View
   - [ ] Display only the properties that are for RENT
