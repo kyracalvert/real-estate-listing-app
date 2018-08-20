@@ -1,7 +1,7 @@
 # real-estate-listing-app
 Real Estate Listing Database
 
-The Real Estate Listing Database is a full-stack application for a local real estate company. The app is designed to allow users to input data for current rent or sale properties. Users can see the full list of those properties via the corresponding navigation link: "Rental Properties" or "For Sale". Finally, users are able to delete properties from the database via the interface using the "Delete" button that populates with each property card. 
+The Real Estate Listing Database is a full-stack application for a local real estate company. The app is designed to allow users to input data for current rent or sale properties. Users can see the full list of those properties via the corresponding navigation link on the Home page: "Rental Properties" or "For Sale". Finally, users are able to delete properties from the database via the interface using the "Delete" button that populates with each property card. 
 
 ## Built With:
 Angular, Node, Express, and SQL (SEAN Stack)
