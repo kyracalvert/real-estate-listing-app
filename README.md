@@ -76,8 +76,14 @@ Angular, Node, Express, and SQL (SEAN Stack)
        - [x] Sale
       - [x] Section Container
           - [x] ng-view
-       
-         
+          
+
+#### Server Logic
+- [x] Home router
+- [x] Rental router
+- [x] Sale router
+
+
 
 
 
