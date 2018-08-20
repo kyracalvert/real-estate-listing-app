@@ -36,4 +36,19 @@ router.get('/', function (req,res) {
     })
 })
 
+//DELETE
+router.delete('/:id', (req,res)=>{
+    console.log('In delete Route');
+    const idToDelete = req.params.id;
+console.log('deleting', idToDelete);
+    //Query for DB
+    const query = 'DELETE FROM "listings" WHERE "id" = $1;';
+    pool.query(query, [idToDelete]).then((results)=>{
+        res.sendStatus(201);
+    }).catch((error)=>{
+        console.log('error in Rentals delete route:', error);
+        res.sendStatus(500);        
+    });
+});//end DELETE
+
 module.exports = router;
