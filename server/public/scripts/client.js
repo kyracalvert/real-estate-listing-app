@@ -8,7 +8,7 @@ myApp.config(function ($routeProvider) {
     }).when('/rentals', {
         templateUrl: 'views/rentals.html',
         controller: 'RentalController as rc'
-    }).when('/for_sale', {
+    }).when('/sales', {
         templateUrl: 'views/sales.html',
         controller: 'SalesController as sc'
     }).otherwise({

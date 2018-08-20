@@ -16,4 +16,18 @@ myApp.controller('SalesController', function ($http){
     }
 
     vm.getSales();
+
+    vm.deleteSale = function (id) {
+        console.log('in deleteRentals')
+        $http({
+            method: 'DELETE',
+            url: '/sales/' + id
+        }).then(function (response) {
+            alert('Selected property deleted.');
+            vm.getSales();
+        }).catch(function (error) {
+            alert('Unable to delete')
+            console.log(error);
+        });
+    }
 })
