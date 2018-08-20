@@ -23,15 +23,15 @@ pool.on('error', (error) =>{
 });
 
 // GET
-router.get('/', function (req,res) {
+router.get('/rentals', function (req,res) {
     console.log('in rentals GET route');
     //query for DB
-    const query = 'SELECT * FROM "listings" WHERE "type" LIKE $1;';
+    const query = 'SELECT * FROM "listings" WHERE "type" = $1;';
     pool.query(query, ['rent']).then((results)=>{
         console.log(results)
         res.send(results.rows);
     }).catch((error)=>{
-        console.log('Error with DB GET', error);
+        console.log('Error in rentals GET', error);
         res.sendStatus(500);
     })
 })

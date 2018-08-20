@@ -1,11 +1,11 @@
 <!-- <table ng-controller -->
-<div>
-        <div class="card">
-                <img ng-src="img_avatar.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                  <h4><b>John Doe</b></h4> 
-                  <p>Architect & Engineer</p> 
-                </div>
-              </div>
-
+<h1>Am I working?</h1>
+<div class="card" ng-repeat="listing in rc.rentals">
+    <img ng-src="images/{{listing.image_path}}" alt="Avatar" style="width:100%">
+    <div class="container">
+        <p>Square feet: {{listing.sqft}}</p>
+        <p>Cost: {{listing.cost}}</p>
+        <p>Listing Type: {{listing.type}}</p>
+        <p>City: {{listing.city}}</p>
+    </div>
 </div>
