@@ -23,7 +23,7 @@ pool.on('error', (error) =>{
 });
 
 // GET
-router.get('/rentals', function (req,res) {
+router.get('/', function (req,res) {
     console.log('in rentals GET route');
     //query for DB
     const query = 'SELECT * FROM "listings" WHERE "type" = $1;';
