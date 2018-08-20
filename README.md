@@ -50,9 +50,9 @@ Angular, Node, Express, and SQL (SEAN Stack)
   - [x] Route
   - [x] Controller
   - [x] View
-  - [ ] Display only the properties that are for RENT
-      - [ ] These listings should be displayed via "card" elements
-      - [ ] Delete button should populate with each card, and delete upon click
+  - [x] Display only the properties that are for RENT
+      - [x] These listings should be displayed via "card" elements
+      - [x] Delete button should populate with each card, and delete upon click
   
   
  ### Client-side SALE PROPERTY page

@@ -1,3 +1,39 @@
-<div ng-controller="HomeController as hc">
-        at Home 
-    </div>
+<h1>Home Page</h1>
+
+<form ng-submit="hc.addListing()">
+    <input type="number" ng-model="hc.cost" placeholder="Cost">
+    <input type="number" ng-model="hc.sqft" placeholder="Square Footage">
+    <select ng-model="hc.options">
+        <option value="rent">
+            Rent
+        </option>
+        <option value="sale">
+            Sale
+        </option>
+    </select>
+    <input type="text" ng-model="hc.city" placeholder="City">
+    <select ng-model="hc.image">
+        <option value="classic-flats.jpg">
+            Classic
+        </option>
+        <option value="haunted.png">
+            Haunted
+        </option>
+        <option value="older.jpg">
+            Older
+        </option>
+        <option value="rental.jpg">
+            Rental
+        </option>
+        <option value="rental2.jpg">
+            Rental2
+        </option>
+        <option value="shiny.jpg">
+            Shiny
+        </option>
+        <option value="stony.jpg">
+            Stony
+        </option>
+    </select>
+   <input type = "submit" value = "submit">
+</form>
