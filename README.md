@@ -64,18 +64,19 @@ Angular, Node, Express, and SQL (SEAN Stack)
       - [x] Delete button should populate with each card, and delete upon click
   
 #### HTML
-   - [x] Views:
-    - [x] home.html
-    - [x] rental.html
-    - [x] sale.html
-    - [x] 404.html
-    index.HTML: 
-     - [x] NAVIGATION
+   Views
+   - [x] home.html
+   - [x] rental.html
+   - [x] sale.html
+   - [x] 404.html
+   
+   index.HTML
+   - [x] NAVIGATION
        - [x] Home
        - [x] Rental
        - [x] Sale
-      - [x] Section Container
-          - [x] ng-view
+    - [x] Section Container
+       - [x] ng-view
           
 
 #### Server Logic
